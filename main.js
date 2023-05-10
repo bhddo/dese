@@ -7,7 +7,7 @@ ctx = canvas.getContext("2d");
 color = "black";
 widthLine = 1;
 canvas.addEventListener("mousedown", myMouseDown);
-function myMousedown(e) 
+function myMouseDown(e) 
 {
     color = document.getElementById("color").value;
     widthLine = document.getElementById("widthLine").value;
